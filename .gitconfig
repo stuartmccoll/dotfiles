@@ -1,0 +1,11 @@
+[user]
+	name = Stuart McColl
+	email = contact@stuartmccoll.co.uk
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	excludesfile = /Users/stuartmccoll/.gitignore_global
+[commit]
+	template = /Users/stuartmccoll/.stCommitMsg
