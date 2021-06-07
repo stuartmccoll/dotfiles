@@ -1,0 +1,40 @@
+{
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "git.enableCommitSigning": true,
+  "git.fetchOnPull": true,
+  "search.smartCase": true,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "WSL": {
+      "path": [
+        "C:\\Windows\\System32\\wsl.exe"
+      ],
+      "args": [],
+      "icon": "terminal-ubuntu-wsl"
+    }
+  },
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Community Material Theme",
+  "workbench.preferredDarkColorTheme": "Community Material Theme",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.defaultProfile.windows": "WSL"
+}
