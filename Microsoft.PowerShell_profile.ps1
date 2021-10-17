@@ -1,4 +1,4 @@
-# Initialisations
+﻿# Initialisations
 oh-my-posh --init --shell pwsh --config C:\Users\it\OneDrive\ohmyposh.json | Invoke-Expression
 
 # Module imports
@@ -17,3 +17,6 @@ if (Test-Path ~\OneDrive\Documents\PowerShell\LocalModules)
   }
 
 }
+
+# Change tab-completion behaviour to be more bash-like
+Set-PSReadLineKeyHandler -Key Tab -Function Complete
